@@ -1,0 +1,30 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     
+}
+.navbar_ul{
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+     flex: 1;
+     width: 1500px;
+     border: 2px solid red;
+     
+}
+.navbar_ul li a{
+     text-decoration: none;
+     color: #7E7F86;
+     
+}
+.navbar_ul  li:hover a{
+     color: #21232D;
+} 
+.navbar{
+     display: flex;
+     justify-content: space-between;
+     border: 2px solid red;
+     width: fit-content;
+     
+}
